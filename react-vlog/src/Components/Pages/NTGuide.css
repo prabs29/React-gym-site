@@ -1,0 +1,68 @@
+.nutritional-guidelines {
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  .nutritional-guidelines h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .macro-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .macro-item {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .macro-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #7006aa;
+  }
+  
+  .macro-item p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .macro-item ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .macro-item li {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .general-tips {
+    margin-top: 40px;
+  }
+  
+  .general-tips h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #7006aa;
+  }
+  
+  .general-tips ul {
+    padding-left: 20px;
+  }
+  
+  .general-tips li {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  

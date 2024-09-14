@@ -1,0 +1,45 @@
+.workout-plans {
+    padding: 20px;
+    overflow-x: auto; /* Allows scrolling if content overflows */
+    white-space: nowrap; /* Prevent wrapping of items */
+}
+
+.workout-plans-list {
+    display: flex;
+    gap: 30px; /* Increased space between each card */
+    align-items: flex-start; /* Align items at the start */
+}
+
+.workout-plan {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 450px; /* Width to match the image size */
+    text-align: center;
+    flex-shrink: 0; /* Prevent shrinking of the card */
+}
+
+.workout-plan img {
+    width: 100%; /* Make image fit the card width */
+    height: 450px; /* Fixed height for the image */
+    object-fit: cover;
+    border-radius: 80px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.workout-plan img:hover {
+    transform: scale(0.95);
+    transition: all 0.2s linear;
+}
+
+.workout-plan h3 {
+    font-size: 1.5rem; /* Adjusted text size */
+    margin: 5px 0;
+}
+
+.workout-plan p {
+    font-size: 0.9rem; /* Adjusted text size */
+    color: #555;
+}

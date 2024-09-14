@@ -1,0 +1,57 @@
+.diet-challenges-container {
+    padding: 40px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.diet-challenges-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.diet-challenges-container p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.challenges-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.challenge-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 48%;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.challenge-item:hover {
+    transform: translateY(-5px);
+}
+
+.challenge-item h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #e74c3c;
+}
+
+.challenge-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.tip {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #27ae60;
+}

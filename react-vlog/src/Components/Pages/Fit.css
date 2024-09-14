@@ -1,0 +1,49 @@
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.fit-container {
+    /*background: url ('images/img-home.jpg') center center/cover 
+    no-repeat;*/
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow:inset 0 0 0 1000px rgba(0,0,0,0.2);
+    object-fit:contain;
+}
+
+.fit-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.fit-container h1 {
+    font-size:8rem;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    top: -200px;  /* Adjusts the overlap */
+    left: -20px; 
+    color: rgba(230, 214, 252, 0.753); 
+}
+
+h1:nth-child(2) {
+    color: rgba(132, 47, 243, 0.63); 
+    top:100px;  /* Adjusts the overlap */
+    left: -20px; /* Adjusts the horizontal overlap */
+}
+
+h1:nth-child(3) {
+    color: rgba(132, 47, 243, 0.37); /* More transparent for depth */
+    top: -10px;  /* More overlap */
+    left: -20px; /* Further overlap horizontally */
+}

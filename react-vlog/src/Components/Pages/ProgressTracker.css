@@ -1,0 +1,44 @@
+.progress-tracker {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.progress-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between each progress item */
+}
+
+.progress-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.progress-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+.progress-bar {
+    position: relative;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #27aa2c;
+    border-radius: 10px;
+    transition: width 0.3s ease-in-out;
+}
+
+.progress-percentage {
+    font-size: 0.9rem;
+    color: #555;
+    text-align: right;
+}
